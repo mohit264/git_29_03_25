@@ -1,0 +1,24 @@
+git tag
+git tag -a my-first-tag -m "We have covered branch illusion"
+git tag
+clear
+git cat-file -t f1923e1
+git cat-file -p f1923e1
+git add .
+git status
+clear
+git commit -m "Modified commit walk-through visual"
+git tag
+git cat-file -p my-first-tag
+git cat-file -t my-first-tag
+git tag my-second
+git tag
+clear
+git cat-file -t my-second
+git cat-file -t my-first-tag
+git cat-file -p my-first-tag
+git cat-file -p my-second
+git log -1
+git cat-file -p 0b96
+git diff 0b96 9783
+clear
