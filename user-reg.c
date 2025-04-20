@@ -1,8 +1,16 @@
-// Wasim will take care of User Registration BE API
+// This is User Registration code for Backend API implementation
 
-void main(void)
+void userRegistration(struct* User);
+
+void main (void)
 {
-	// Here BE code will be implemented
+	printf("Enter Name..");
+
+	userRegistration(&userObj);
 }
 
-
+void userRegistration(struct* User userobj)
+{
+	// Grab user object and insert into database
+	printf("User Registration done successfully");
+}
